@@ -5,9 +5,9 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [Introduction](#introduction)
-- [Installations](#Installations)
-- [How to use it](#How to use it)
-- [Exemple](#Exemple)
+- [Installations](#installations)
+- [How to use it](#how to use it)
+- [Exemple](#exemple)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
