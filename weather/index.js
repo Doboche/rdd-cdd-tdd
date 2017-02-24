@@ -3,11 +3,16 @@
 const YQL = require('yql');
 const _ = require('lodash');
 
+/**
+ * @param {string[]} opts - City and country.
+ */
+
 module.exports = (opts, callback) => {
 	opts = opts || [];
 
 	let query;
 
+  /** If there is no city and country indicate in the command, compute the code with Dhaka, Bangladesh*/
 	if (_.isEmpty(opts)) {
 		query = new YQL('select * from weather.forecast where woeid in (select woeid from geo.places(1) where text="Dhaka, Bangladesh")');
 	} else {
