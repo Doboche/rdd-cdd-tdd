@@ -48,8 +48,8 @@ weather(cli.input, (err, result) => {
 		temperature = _toCelcius(result.query.results.channel.item.condition.temp) + 'C';
 	}
 
-	let city = cli.input[0] ? cli.input[0] : 'Dhaka';
-	let country = cli.input[1] ? cli.input[1] : 'Bangladesh';
+	let city = cli.input[0] ? cli.input[0] : 'Paris';
+	let country = cli.input[1] ? cli.input[1] : 'France';
 
 	console.log(chalk.red(city + ', ' + country));
 	console.log(chalk.cyan('Condition: ' + chalk.yellow(condition)));
