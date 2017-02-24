@@ -6,7 +6,7 @@
 
 - [Introduction](#introduction)
 - [Installations](#installations)
-- [How to use it](#how to use it)
+- [How to use it](#how-to-use-it)
 - [Exemple](#exemple)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
